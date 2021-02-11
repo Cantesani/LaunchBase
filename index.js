@@ -62,4 +62,4 @@ function enviaMensagem(media, turma) {
 }
 } 
 enviaMensagem(media1, 'turma A')
-enviaMensagem(media2, 'turma B', 'sala 2')
+enviaMensagem(media2, 'turma B')
