@@ -18,35 +18,30 @@ const alunosDaTurmaA = [
         nota: 9
     },
     {
-        nome: 'josé',
-        nota: 10
-    },
-    {
-        nome: 'Sasha',
+        nome: 'Lucas',
         nota: 10
     }
-
 ]
 const alunosDaTurmaB = [ 
     {
-        nome: 'Renato',
+        nome: 'Bruno',
         nota: 10
     },
     {
-        nome: 'Flavia',
+        nome: 'Victor',
         nota: 10
     },
     {
-        nome: 'Fernando',
-        nota: 10
+        nome: 'Matheus',
+        nota: 7.9
     },
     {
-        nome: 'Fernando',
-        nota: 10
+        nome: 'Caio',
+        nota: 4.8
     },
     {
-        nome: 'Fernando',
-        nota: 10
+        nome: 'Alice',
+        nota: 8
     }
 
 ]
