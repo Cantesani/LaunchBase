@@ -16,33 +16,17 @@ const alunosDaTurmaA = [
     {
         nome: 'Sasha',
         nota: 9
-    },
-    {
-        nome: 'josé',
-        nota: 10
-    },
-    {
-        nome: 'Sasha',
-        nota: 10
     }
 
 ]
 const alunosDaTurmaB = [ 
     {
         nome: 'Renato',
-        nota: 10
+        nota: 9
     },
     {
         nome: 'Flavia',
-        nota: 10
-    },
-    {
-        nome: 'Fernando',
-        nota: 10
-    },
-    {
-        nome: 'Fernando',
-        nota: 10
+        nota: 2
     },
     {
         nome: 'Fernando',
@@ -52,13 +36,7 @@ const alunosDaTurmaB = [
 ]
 
 function calculaMedia(alunos) { 
-    let soma = 0;
-    for (let i=0; i < alunos.length; i++ ) {
-        soma = soma + alunos[i].nota
-    }
-    const media = soma / alunos.length
-    return media
-
+return  (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
 }
 
 const media1 = calculaMedia(alunosDaTurmaA)
